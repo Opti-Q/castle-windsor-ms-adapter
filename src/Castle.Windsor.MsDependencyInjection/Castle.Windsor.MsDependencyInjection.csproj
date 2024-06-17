@@ -18,7 +18,7 @@
   <ItemGroup>
     <None Include="bin\Release\net6.0\Castle.Windsor.MsDependencyInjection.pdb">
       <PackagePath>lib/net6.0/</PackagePath>
-      <Pack>true</Pack>
+      <Pack>false</Pack>
     </None>
   </ItemGroup>
 
@@ -26,7 +26,7 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
     <PackageReference Include="Microsoft.Extensions.Options" Version="7.0.0" />
     <PackageReference Include="Castle.Windsor" Version="4.1.0" />
-    <PackageReference Include="Castle.Core" Version="5.1.1" />
+    <PackageReference Include="Castle.Core" Version="4.2.1" />
     <PackageReference Include="SourceLink.Create.CommandLine" Version="2.8.3" PrivateAssets="All" />
   </ItemGroup>
 
